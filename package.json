@@ -1,0 +1,33 @@
+{
+  "name": "platzon",
+  "version": "0.1.0",
+  "description": "Traducto de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xslaifer/platzon.git"
+  },
+  "keywords": [
+    "platzon",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "johan merello <johan.merello@gmail.com> (https://twitter.com/JohanMerello)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xslaifer/platzon/issues"
+  },
+  "homepage": "https://github.com/xslaifer/platzon#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
